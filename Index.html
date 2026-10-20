@@ -1,1 +1,84 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Bus Tracking Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">SmartBus</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#tracking">Track Bus</a>
+            <a href="#routes">Routes</a>
+            <a href="#safety">Safety</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <h1>Smart School & College Bus Tracking</h1>
+        <p>
+            Track buses, view route details, and improve
+            student transportation safety.
+        </p>
+        <a href="#tracking" class="btn">Track Your Bus</a>
+    </section>
+
+    <!-- Tracking Section -->
+    <section id="tracking" class="section">
+        <h2>Bus Tracking</h2>
+        <div class="card">
+            <h3>Bus No. MH-01-AB-1234</h3>
+            <p><strong>Route:</strong> School / College Route A</p>
+            <p><strong>Driver:</strong> Rajesh Patil</p>
+            <p><strong>Status:</strong>
+                <span class="status">On Route</span>
+            </p>
+            <p><strong>Estimated Arrival:</strong> 10 minutes</p>
+            <button onclick="showLocation()">View Bus Location</button>
+            <p id="location"></p>
+        </div>
+    </section>
+
+    <!-- Routes Section -->
+    <section id="routes" class="section">
+        <h2>Bus Routes</h2>
+        <div class="card">
+            <h3>Route A</h3>
+            <p>College Gate → Main Road → Bus Stop → Campus</p>
+        </div>
+
+        <div class="card">
+            <h3>Route B</h3>
+            <p>Central Stop → Market Road → Station → Campus</p>
+        </div>
+    </section>
+
+    <!-- Safety Section -->
+    <section id="safety" class="section">
+        <h2>Student Safety</h2>
+        <div class="card">
+            <p>• Access bus route information.</p>
+            <p>• Check the displayed bus status.</p>
+            <p>• Improve communication about transportation.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; 2026 Smart Bus Tracking Management System
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
